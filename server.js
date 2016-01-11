@@ -1,4 +1,5 @@
-var vorpal = require('vorpal')();
+var vorpal = require('vorpal')()
+    fs = require('fs');
 
 vorpal
     .command('create', 'Create')
